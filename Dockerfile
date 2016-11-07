@@ -1,6 +1,5 @@
 FROM mhart/alpine-node:4.4.7
 
-
 RUN mkdir -p /opt/oracle
 WORKDIR /opt/oracle
 COPY instantclient_12_1 instantclient
